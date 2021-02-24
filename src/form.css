@@ -1,0 +1,98 @@
+.form-input {
+    position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 0 10px;
+    box-shadow: none;
+    outline: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.form-input.round {
+    border-radius: 40px;
+}
+
+.form-input.border-dashed {
+    border: 2px solid rgba(0, 0, 0, .15);
+    background: rgba(0, 0, 0, .1);
+}
+
+.form-input.border-dashed:focus {
+    border: 2px dashed #999;
+    background: #fff;
+    border-color: #4285F4;
+}
+
+input {
+    text-align: center;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#right {
+    float: right;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.carousel-item {
+    text-align: center;
+    min-height: 280px;
+    /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
